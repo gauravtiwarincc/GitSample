@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbl_title: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello Git")
